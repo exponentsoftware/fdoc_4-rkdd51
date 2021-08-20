@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.main-container{
+    margin: 10px;
+}
+
+Header li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: .8750em;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+Header > a{
+    margin-top: 0.6250em;
+}
+
+Header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("./images/danielle-macinnes-IuLgi9PWETU-unsplash.jpg") no-repeat fixed; 
+
+    background-size: cover;
+    background-position:center center;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875em .6250em;
+}
+
+.logo {
+    cursor:pointer;
+}
+
+.nav_links {
+list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 1.25em;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: rgb(61, 194, 34);
+}
+
+Header button{
+padding: 0.3750em 1.5625em;
+background-color: inherit;
+  border: none;
+  border: 2px white solid;
+  border-radius: 1.5625em;
+  cursor: pointer;
+  transition: 0 0.3s ease 0s;
+}
+Header button:hover{
+    opacity: .8;
+}
+
+.hcenter{
+    text-align: center;
+    margin-top:10.625em;
+    color: #edf0f1;
+}
+
+.hcenter h1{
+    font-size: 3.75em;
+}
+/* ----------------------------About section------------------------------------------------------ */
+.about{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 12em;
+}
+
+
+.about-main > h1{
+ 
+    padding: 20px;
+}
+.about-main > p{
+    margin-bottom: 2em;
+    padding: 0 4em;
+}
+
+.icon{
+    margin-top: 1em;
+
+}
+
+
+
+/* -------------social media icons----------------------------*/
+.social-media-icons{
+    margin-top: 2em;
+}
+.social-media-icons a{
+    font-size: 2em;
+    margin: 1em;
+} 
+
+.social-media-icons a:hover{
+    opacity: .8;
+}
+
+
+
+
+/* .fa {
+    text-align: center;
+    text-decoration: none;
+    margin: .5em .7em;
+  }
+  
+  
+  }
+*/
+  .fa-twitter {
+    color: #022063;
+  }
+  .fa-linkedin {
+    color: #022063;
+  }
+  
+  .fa-github {
+    color: #022063;
+  } 
+  /* ------------------------------------My Projects Section ----------------------------------------------*/
+
+.myprojects{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 4em;
+    background-color:#022063 ;
+    color: #edf0f1;
+
+}
+
+.myprojects > p{
+    margin-bottom: 6em;
+    padding: 0 5em;
+}
+
+.cards{
+    padding: 0 3.6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 25%;
+    height: 17em;
+      margin: 0 3em;
+     background: #edf0f1 ;
+     color: #022063;
+     border-radius: 1em;
+
+}
+
+.card h2{
+    font-size: 1em;
+    margin-top: 2em;
+
+}
+.card p{
+    margin-top: 2em;
+    padding: 0 1em;
+    font-size: .9em;
+
+}
+.card button{
+border: none;
+margin-top: 2.5em;
+background: #022063;
+width: 50%;
+height: 6vh;
+border-radius: 20em;
+}
+
+
+/* ---------------------------------------------------Skills --------------------------------------------------------- */
+.skills{
+    text-align: center;
+    width: 100%;
+    height: 190vh;
+
+}
+
+
+.whyami > h1{
+    padding: 3em 0 1em 0;
+}
+.whyami > p{
+    margin-bottom: 6em;
+    padding: 0 10em;
+}
+
+.whyamiPoints{
+display: grid;
+grid-template-columns: 30% 30% 30%;
+grid-template-rows: 50% 50%;
+justify-content: space-around;
+padding: 0 10em;
+}
+
+.gridpoints{
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.points > h1{
+    font-size: 1em;
+    margin-top: .8em;
+    text-align: left;
+}
+.points > p{
+    margin-top: 1em;
+    padding: 0 1em;
+    font-size: .9em;
+    text-align:left
+
+}
+.icon{
+    margin: .7em .2em;
+    height: 3em;
+    border: 1px solid #022063;
+    border-radius: 50%;
+
+}
+
+.whyami-progress > p{
+    font-size: 1em;
+    margin-bottom: 6em;
+    padding: 0 15em;
+}
+
+.whyami-progress > h1{
+    padding: 3em 0 1em 0;
+}
+
+
+progress{
+width: 65%;
+}
+
+.progress{
+    width: 65%;
+    margin: auto ;
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar{
+    margin-bottom: 1em;
+}
+
+
+/* -------------------------------------------Experience----------------------------------------------------------- */
+
+.experience{
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    background: #022063;
+    color: #edf0f1;
+    padding: 2em;
+}
+
+.experience-title{
+    margin: 1em auto;
+}
+
+.experience-content{
+    padding: 2em;
+    display: flex;
+    text-align: left;
+    
+}
+
+.childitem1 > p{
+flex: 1;
+margin-bottom: 1em;
+padding-right: .8em;
+}
+.childitem2 > p{
+flex: 1;
+margin-bottom: 1em;
+padding-left: .8em;
+
+}
+    /* .expreience-left .experience-right{
+       flex: 1;
+}
+    */
